@@ -3,7 +3,7 @@ import { NCard, NTabs, NTabPane, NForm, NFormItemRow, NInput, NButton } from 'na
 </script>
 
 <template>
-  <n-card>
+  <n-card id="login">
     <n-tabs type="segment" animated>
       <n-tab-pane name="signin" tab="登录">
         <n-form>
@@ -39,5 +39,8 @@ import { NCard, NTabs, NTabPane, NForm, NFormItemRow, NInput, NButton } from 'na
 </template>
 
 <style scoped>
-
+#login {
+  max-width: 600px;
+  margin: 0 auto;
+}
 </style>

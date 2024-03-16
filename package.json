@@ -8,7 +8,8 @@
   },
   "dependencies": {
     "guess": "^1.0.2",
-    "vue": "^3.2.37"
+    "vue": "^3.2.37",
+    "vue-router": "^4.3.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.0.1",

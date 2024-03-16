@@ -1,12 +1,11 @@
 <script setup>
-import LoginView from './views/LoginView.vue'
-import PanelView from './views/PanelView.vue'
+import { RouterView } from 'vue-router'
 </script>
 
 <template>
-  <!-- <LoginView></LoginView> -->
-  <PanelView></PanelView>
+  <RouterView />
 </template>
 
 <style scoped>
+
 </style>
