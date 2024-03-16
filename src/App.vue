@@ -1,9 +1,11 @@
 <script setup>
 import LoginView from './views/LoginView.vue'
+import PanelView from './views/PanelView.vue'
 </script>
 
 <template>
-  <LoginView></LoginView>
+  <!-- <LoginView></LoginView> -->
+  <PanelView></PanelView>
 </template>
 
 <style scoped>
